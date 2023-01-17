@@ -1,0 +1,197 @@
+Question 1: What is your GitHub URL?
+https://github.com/ggracez
+
+Question 2: What version is the requests library installed on the system?
+2.28.1
+
+Question 3: What version is the requests library installed in the virtualenv?
+2.28.0
+
+Question 4: What is the difference between the virtual environment and the not virtual environment python?
+The versions are different.
+
+Question 5: What status code is returned for http://google.com? What URL must you visit to get a 200 status code?
+Status code 301. Must visit http://www.google.com.
+
+Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+Status code 301 which is the one returned by curl -i. Curl http://www.google.com/teapot does not return a status code or headers.
+
+Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+The POST method is useful for sending the requests to the website.
+
+Comparing files file1.txt and FILE2.TXT
+
+***** file1.txt
+
+HTTP/1.1 200 OK
+
+Date: Tue, 10 Jan 2023 00:38:27 GMT
+
+Server: Apache/2.4.6 (CentOS)
+
+***** FILE2.TXT
+
+HTTP/1.1 200 OK
+
+Date: Tue, 10 Jan 2023 00:39:18 GMT
+
+Server: Apache/2.4.6 (CentOS)
+
+*****
+
+
+
+***** file1.txt
+
+<H3>Form Contents:</H3>
+
+<P>No form fields.
+
+<DL>
+
+</DL>
+
+***** FILE2.TXT
+
+<H3>Form Contents:</H3>
+
+<DL>
+
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+
+<DD>MiniFieldStorage('X', 'Y')
+
+</DL>
+
+*****
+
+
+
+***** file1.txt
+
+<DL>
+
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+
+***** FILE2.TXT
+
+<DL>
+
+<DT> CONTENT_LENGTH <DD> 3
+
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+
+*****
+
+
+
+***** file1.txt
+
+<DT> REMOTE_ADDR <DD> 142.244.5.34
+
+<DT> REMOTE_PORT <DD> 5602
+
+<DT> REQUEST_METHOD <DD> GET
+
+<DT> REQUEST_SCHEME <DD> https
+
+***** FILE2.TXT
+
+<DT> REMOTE_ADDR <DD> 142.244.5.34
+
+<DT> REMOTE_PORT <DD> 5610
+
+<DT> REQUEST_METHOD <DD> POST
+
+<DT> REQUEST_SCHEME <DD> https
+
+*****
+
+
+
+***** file1.txt
+
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+
+<DT> UNIQUE_ID <DD> Y7yzg5OzQgycOkoALIJr@wAAAAI
+
+</DL>
+
+***** FILE2.TXT
+
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+
+<DT> UNIQUE_ID <DD> Y7yztj-BeNzdtoLVZQesKQAAAAQ
+
+</DL>
+
+*****
+
+
+
+***** file1.txt
+
+<DL>
+
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+
+***** FILE2.TXT
+
+<DL>
+
+<DT> CONTENT_LENGTH <DD> 3
+
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
+
+<DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
+
+*****
+
+
+
+***** file1.txt
+
+<DT> REMOTE_ADDR <DD> 142.244.5.34
+
+<DT> REMOTE_PORT <DD> 5602
+
+<DT> REQUEST_METHOD <DD> GET
+
+<DT> REQUEST_SCHEME <DD> https
+
+***** FILE2.TXT
+
+<DT> REMOTE_ADDR <DD> 142.244.5.34
+
+<DT> REMOTE_PORT <DD> 5610
+
+<DT> REQUEST_METHOD <DD> POST
+
+<DT> REQUEST_SCHEME <DD> https
+
+*****
+
+
+
+***** file1.txt
+
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+
+<DT> UNIQUE_ID <DD> Y7yzg5OzQgycOkoALIJr@wAAAAI
+
+</DL>
+
+***** FILE2.TXT
+
+<DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
+
+<DT> UNIQUE_ID <DD> Y7yztj-BeNzdtoLVZQesKQAAAAQ
+
+</DL>
+
+*****
+
+Question 8: What is the raw URL to your Python script on GitHub?
+https://raw.githubusercontent.com/ggracez/lab1/master/lab1.py
